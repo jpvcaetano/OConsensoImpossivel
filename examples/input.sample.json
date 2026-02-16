@@ -1,0 +1,52 @@
+{
+  "min_date": "2026-05-01",
+  "max_date": "2026-06-30",
+  "people": [
+    {
+      "name": "Ana",
+      "hard_constraints": [
+        {
+          "type": "interval",
+          "start_date": "2026-05-22",
+          "end_date": "2026-05-24"
+        }
+      ],
+      "soft_constraints": [
+        {
+          "type": "date",
+          "date": "2026-05-15"
+        }
+      ]
+    },
+    {
+      "name": "Bruno",
+      "hard_constraints": [
+        {
+          "type": "date",
+          "date": "2026-06-05"
+        }
+      ],
+      "soft_constraints": [
+        {
+          "type": "interval",
+          "start_date": "2026-06-12",
+          "end_date": "2026-06-14"
+        }
+      ]
+    },
+    {
+      "name": "Carla",
+      "hard_constraints": [],
+      "soft_constraints": [
+        {
+          "type": "date",
+          "date": "2026-05-08"
+        },
+        {
+          "type": "date",
+          "date": "2026-06-19"
+        }
+      ]
+    }
+  ]
+}
